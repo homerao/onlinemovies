@@ -7,7 +7,7 @@ class Page extends Component {
         render(){
             return (
              
-                 <div id="root">
+                 <div >
                  <Head></Head>
                  <Body />
                  </div>

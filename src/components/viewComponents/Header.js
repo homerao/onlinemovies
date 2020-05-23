@@ -3,6 +3,7 @@ import Navbar from './NavBar';
 class Header extends Component {
     render(){
         return(
+            
             <Navbar></Navbar>
         );
     }

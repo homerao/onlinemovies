@@ -1,11 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './public/css/theme.css';
+import './styles/css/theme.css';
 import Page from './components/viewComponents/Page'
+import Home from './pages/home'
+import {Switch, Route, BrowserRouter} from 'react-router-dom'
 
 function App() {
   return (
-    <Page/>
+    
+    <BrowserRouter>
+    <Switch>
+      <Route path="/" exact ><Page/></Route>
+      <Route path="/home" exact ><Home ></Home></Route>
+
+    </Switch>
+    </BrowserRouter>
+    
   );
 }
 
