@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Head from './Head';
 import Body from './Body';
 
 class Page extends Component {
@@ -8,7 +7,7 @@ class Page extends Component {
             return (
              
                  <div >
-                 <Head></Head>
+         
                  <Body />
                  </div>
                  

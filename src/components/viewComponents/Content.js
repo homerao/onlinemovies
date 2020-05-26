@@ -8,6 +8,8 @@ import guerraInfinita from '../../resources/imgs/guerrainfinita.jpg'
 import doisirmaos from '../../resources/imgs/doisirmaos.jpg'
 import vikings from '../../resources/imgs/vikings.jpg'
 import arremesofinal from '../../resources/imgs/arremesofinal.jpg'
+import  '../../resources/css/styles.css'
+import logo  from '../../resources/imgs/favicon.ico'
 
 
 
@@ -44,18 +46,10 @@ class Content extends Component {
         </div>
       </div>
       {/* style="{{background-image: url(https://static.pingendo.com/cover-bubble-dark.svg)}, background-position: right bottom,  background-size: cover, background-repeat: repeat, background-attachment: fixed}"  */}
-      <div className="py-5"  style={{
-          backgroundimage : 'url(https://static.pingendo.com/cover-bubble-dark.svg)',
-          backgroundposition: 'right bottom',
-          backgroundSize: 'cover',
-          backgroundRepeat: 'repeat',
-          backgroundAttachment: 'fixed',
-          
-          
-                                    }} >
+      <div className="py-5 div"   >
      <div class="container">
       <div class="row">
-        <div class="ml-auto p-3 col-md-2 bg-white"> <img class="img-fluid d-block rounded-circle" src="https://static.pingendo.com/img-placeholder-1.svg" alt="" /> </div>
+        <div class="ml-auto p-3 col-md-2 bg-white"> <img class="img-fluid d-block rounded-circle" src={logo} alt="" /> </div>
         <div class="p-3 col-md-7 mr-auto bg-white text-dark">
           <div class="blockquote mb-0">
             <p>"A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine."</p>
