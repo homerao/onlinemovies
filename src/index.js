@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import './styles/css/theme.css'
+import './resources/fonts/ionicons.min.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'reactstrap'
 

@@ -37,7 +37,7 @@ class NavBar extends Component {
                 </li>
                   <li className="nav-item"> <a className="nav-link" href="/">Assinatura</a> </li>
                   <li className="nav-item"> <a className="nav-link" href="/">Sobre</a> </li>
-                  <li className="nav-item"> <a className="nav-link" href="/">Acessar <i className="fa d-inline  fas fa-key"></i></a> </li>
+                  <li className="nav-item"> <a className="nav-link" href="/login">Acessar <i className="fa d-inline  fas fa-key"></i></a> </li>
                 </ul>
                 <ul className="navbar-nav">
                   <li className="nav-item"> <a className="nav-link" href="/">

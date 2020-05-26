@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles/css/theme.css';
+import './resources/css/styles.css'
 import Page from './components/viewComponents/Page'
 import Home from './pages/home'
 import Login from './pages/users/userLogin'
