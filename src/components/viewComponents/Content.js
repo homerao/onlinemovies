@@ -10,6 +10,8 @@ import vikings from '../../resources/imgs/vikings.jpg'
 import arremesofinal from '../../resources/imgs/arremesofinal.jpg'
 import  '../../resources/css/styles.css'
 import logo  from '../../resources/imgs/favicon.ico'
+import {NavLink} from   'react-router-dom'
+import {Link} from 'react-router-dom'
 
 
 
@@ -63,33 +65,33 @@ class Content extends Component {
       <div class="py-3">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 col-6 p-3"> <img class="img-fluid d-block mx-auto" src={hobbit} alt="" width={this.state.imgWidth}  height={this.state.imgHeight} />
-          <h3 class="text-center" >Hobbit </h3>
+        <div class="col-md-4 col-6 p-3"><NavLink to="/"> <img class="img-fluid d-block mx-auto" src={hobbit} alt="" width={this.state.imgWidth}  height={this.state.imgHeight} /></NavLink>
+          <h3 class="text-center" ><Link>Hobbit </Link> </h3>
           <h2 class="my-3 text-center"><b></b> </h2>
           <p className="text-justify" >Após ser expulso da montanha de Erebor, o dragão Smaug ataca com fúria a cidade dos homens que fica próxima ao local. Após muita destru...</p>
         </div>
-        <div class="col-md-4 col-6 p-3"> <img class="img-fluid d-block mx-auto" src={frozen} alt="" width={this.state.imgWidth}  height={this.state.imgHeight} />
-          <h3 class="text-center">Frozen</h3>
+        <div class="col-md-4 col-6 p-3"><NavLink to="/"> <img class="img-fluid d-block mx-auto" src={frozen} alt="" width={this.state.imgWidth}  height={this.state.imgHeight} /></NavLink>
+          <h3 class="text-center"><Link>Frozen</Link></h3>
           <h2 class="my-3 text-center">  </h2>
           <p className="text-justify">De volta à infância de Elsa e Anna, as duas garotas descobrem uma história do pai, quando ainda era príncipe de Arendelle. Ele conta às ...</p>
         </div>
-        <div class="col-md-4 col-6 p-3"> <img class="img-fluid d-block mx-auto" src={guerraInfinita} alt="" width={this.state.imgWidth}  height={this.state.imgHeight} />
-          <h3 class="text-center">Guerra infinita</h3>
+        <div class="col-md-4 col-6 p-3"><NavLink to="/"> <img class="img-fluid d-block mx-auto" src={guerraInfinita} alt="" width={this.state.imgWidth}  height={this.state.imgHeight} /></NavLink>
+          <h3 class="text-center"><Link>Guerra infinita</Link></h3>
           <h2 class="my-3 text-center">  </h2>
           <p className="text-justify">Homem de Ferro, Thor, Hulk e os Vingadores se unem para combater seu inimigo mais poderoso, o maligno Thanos. Em uma missão para coletar ...</p>
         </div>
-        <div class="col-md-4 col-6 p-3"> <img class="img-fluid d-block mx-auto" src={doisirmaos} alt="" width={this.state.imgWidth}  height={this.state.imgHeight} />
-          <h3 class="text-center">Dois irmãos</h3>
+        <div class="col-md-4 col-6 p-3"><NavLink to="/"> <img class="img-fluid d-block mx-auto" src={doisirmaos} alt="" width={this.state.imgWidth}  height={this.state.imgHeight} /></NavLink>
+          <h3 class="text-center"><Link>Dois irmãos</Link></h3>
           <h2 class="my-3 text-center">  </h2>
           <p className="text-justify">Em um mundo transformado, no qual as criaturas não dependiam mais da magia para viver, dois irmãos elfos recebem um cajado de bruxo de seu ...</p>
         </div>
-        <div class="col-md-4 col-6 p-3"> <img class="img-fluid d-block mx-auto" src={vikings} alt="" width={this.state.imgWidth}  height={this.state.imgHeight} />
-          <h3 class="text-center">Vikings</h3>
+        <div class="col-md-4 col-6 p-3"><NavLink to="/"> <img class="img-fluid d-block mx-auto" src={vikings} alt="" width={this.state.imgWidth}  height={this.state.imgHeight} /></NavLink>
+          <h3 class="text-center"><Link>Vikings</Link></h3>
           <h2 class="my-3 text-center">  </h2>
           <p className="text-justify">So absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke.</p>
         </div>
-        <div class="col-md-4 col-6 p-3"> <img class="img-fluid d-block mx-auto" src={arremesofinal} alt="" width={this.state.imgWidth}  height={this.state.imgHeight} />
-          <h3 class="text-center">Arremesso Final</h3>
+        <div class="col-md-4 col-6 p-3"><NavLink to="/"> <img class="img-fluid d-block mx-auto" src={arremesofinal} alt="" width={this.state.imgWidth}  height={this.state.imgHeight} /></NavLink>
+          <h3 class="text-center"><Link>Arremesso Final</Link></h3>
           <h2 class="my-3 text-center">  </h2>
           <p className="text-justify">Esse relato definitivo sobre a carreira de Michael Jordan e o time do Chicago Bulls nos anos 90 traz imagens inéditas da temporada de 1997–1998.</p>
         </div>
